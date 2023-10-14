@@ -121,9 +121,9 @@ minimum = Math.min(x,y,z); */
 
 // Exercise: Hypotenuse calc practice program;
 
-let a;
+/* let a;
 let b;
-let c;
+let c; */
 
 /* a = window.prompt("Enter value of a: ");
 a = Number(a);
@@ -135,7 +135,7 @@ c = Math.sqrt(c);
 
 console.log("Side C is : ", c); */
 
-document.getElementById("submitButton").onclick = function(){
+/* document.getElementById("submitButton").onclick = function(){
 
     a = document.getElementById("aTextBox").value;
     a = Number(a);
@@ -146,4 +146,25 @@ document.getElementById("submitButton").onclick = function(){
     c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
     document.getElementById("cLabel").innerHTML = "Side C: " + c;
+} */
+
+// Exercise: Counter program
+
+let Count = 0;
+
+document.getElementById("decreaseBtn").onclick = function(){
+    Count -=1;
+    document.getElementById("countLabel").innerHTML = Count;
 }
+
+document.getElementById("resetBtn").onclick = function(){
+
+    Count = 0;
+    document.getElementById("countLabel").innerHTML = Count;
+}
+
+document.getElementById("increaseBtn").onclick = function(){
+    Count +=1;
+    document.getElementById("countLabel").innerHTML = Count;
+}
+
