@@ -150,7 +150,7 @@ console.log("Side C is : ", c); */
 
 // Exercise: Counter program
 
-let Count = 0;
+/* let Count = 0;
 
 document.getElementById("decreaseBtn").onclick = function(){
     Count -=1;
@@ -167,4 +167,10 @@ document.getElementById("increaseBtn").onclick = function(){
     Count +=1;
     document.getElementById("countLabel").innerHTML = Count;
 }
+ */
 
+//Exercise: Random Number generator
+
+let x = Math.floor(Math.random()*6) +1 ;  // 6 sided dice
+
+console.log(x);
