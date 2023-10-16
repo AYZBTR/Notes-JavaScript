@@ -180,15 +180,15 @@ document.getElementById("rollBtn").onclick = function(){
     console.log(x);
 }; */
 
-/* let a;
+let a;
 document.getElementById("rollButton").onclick = function(){
 
     a = Math.floor(Math.random() * 6) + 1;
-    document.getElementById("xlabel").innerHTML = a;
+    document.getElementById("alabel").innerHTML = a;
     
-} */
+}
 
-let x;
+/* let x;
 let y;
 let z;
 
@@ -201,5 +201,5 @@ document.getElementById("rollButton").onclick = function(){
     document.getElementById("xlabel").innerHTML = x;
     document.getElementById("ylabel").innerHTML = y;
     document.getElementById("zlabel").innerHTML = z;
-}
+} */
 
