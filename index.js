@@ -180,13 +180,13 @@ document.getElementById("rollBtn").onclick = function(){
     console.log(x);
 }; */
 
-let a;
+/* let a;
 document.getElementById("rollButton").onclick = function(){
 
     a = Math.floor(Math.random() * 6) + 1;
     document.getElementById("alabel").innerHTML = a;
     
-}
+} */
 
 /* let x;
 let y;
@@ -203,3 +203,25 @@ document.getElementById("rollButton").onclick = function(){
     document.getElementById("zlabel").innerHTML = z;
 } */
 
+
+// Useful STRING Properties and METHODS
+
+/* let userName = "Aayush Bhattarai"
+let phoneNumber = "123-45-678-9700"; */
+
+/* console.log(userName.length);
+
+let firstLetter = userName.charAt(0);      //-> Character of a string at given index
+console.log(firstLetter);
+
+console.log(userName.indexOf("B"));            //--> index of the first occurance of a letter
+console.log(userName.lastIndexOf("a"));  */           //--> index of the last occurance of a letter
+
+/* userName = userName = userName.trim();   //--> triming space before and after a string.
+userName = userName.toUpperCase();       // --> Capitializ  given string
+userName = userName.toLowerCase();  */      
+
+
+/* phoneNumber = phoneNumber.replaceAll("-", "*")   //--> replacing given string into another one
+
+console.log(phoneNumber); */
