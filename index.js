@@ -235,16 +235,63 @@ and returns it as a new String,
 without modifying the original String.. */
 
 
-let fullName = "Snoop Dog";
+/* let fullName = "Snoop Dog";
 
 let firstName;
-let lastName;
+let lastName; */
 
 /* firstName = fullName.slice(0,6)
 lastName = fullName.slice(7); */
 
-firstName = fullName.slice(0, fullName.indexOf(" "));
+/* firstName = fullName.slice(0, fullName.indexOf(" "));
 lastName = fullName.slice(fullName.indexOf(" ") +1);
 
 console.log(firstName);
-console.log(lastName);
+console.log(lastName); */
+
+
+//METHOD CHAINING
+// => Calling one method after another in one continuous line of Code.
+
+/* let userName = "aayush"
+
+let letter = userName.charAt(0).toUpperCase();
+
+
+console.log(letter); */
+
+//IF STATEMENT
+/* => basic form of decision making
+if a condition is true, then do something
+if Notification, then don't do it!!! */
+
+/* 
+let age = 66
+
+if(age>=65){
+    console.log("You are a senior citizen!!")
+}
+else if(age>=18){
+    console.log("You are an adult!");
+}
+else if(age<0){
+    console.log("You haven't been born yet!!");
+}
+
+else{
+    console.log("You are a child!");
+} */
+
+
+/* let online = true;
+if(online){
+    console.log("You are online!!");
+
+}
+else{
+    console.log("You are offline!!");
+} */
+
+
+//
+
