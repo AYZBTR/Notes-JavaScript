@@ -293,8 +293,8 @@ else{
 } */
 
 
-//CHECKED PROPERTY exercise.
-document.getElementById("myButton").onclick = function(){
+//CHECKED PROPERTY exercise 1.
+/* document.getElementById("myButton").onclick = function(){
 
     const myCheckBox = document.getElementById("myCheckBox");
 
@@ -306,5 +306,38 @@ document.getElementById("myButton").onclick = function(){
         console.log("You are not subscribed!!");
     }
 
+} */
+
+//CHECKED PROPERTY exercise 2.
+document.getElementById("myButton").onclick = function(){
+
+    const myCheckBox = document.getElementById("myCheckBox");
+    const visaBtn = document.getElementById("visaBtn");
+    const mastercardBtn = document.getElementById("mastercardBtn");
+    const paypalBtn = document.getElementById("paypalBtn");
+
+    if(myCheckBox.checked == true){
+        console.log("You are subscribed");
+
+    }
+    else{
+        console.log("You are not subscribed!!");
+    }
+
+    if(visaBtn.checked){
+        console.log("You have selected Visa card as your payment method!");
+
+    }
+    else if(mastercardBtn.checked){
+        console.log("You have selected mastercard as your payment method!");
+    }
+
+    else if(paypalBtn.checked){
+        console.log("You have selected paypal as your payment method!");
+    }
+    else{
+        console.log("You must select an payment type!! ");
+    }
 }
+
 
