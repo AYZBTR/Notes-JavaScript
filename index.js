@@ -375,7 +375,7 @@ switch(grade){
 
 //Exercise 2
 
-let grade = 80;
+/* let grade = 80;
 
 switch(true){
     case grade>=90:
@@ -399,4 +399,11 @@ switch(true){
         break;
     default:
         console.log(grade, "is not a letter grade! (Invalid Input)")
-}
+} */
+
+
+//AND OR Logical Operators:
+//Gives us the ability to check more than 1 condition concurrently
+// && AND (BOTH conditions must be true)
+// || OR (Either condition can be true)
+
