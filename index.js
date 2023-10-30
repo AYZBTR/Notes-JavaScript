@@ -407,3 +407,34 @@ switch(true){
 // && AND (BOTH conditions must be true)
 // || OR (Either condition can be true)
 
+
+//&& exercise
+/* let temp = 31;
+if(temp > 0 && temp < 30){
+    console.log("The weather is good!");
+}else{
+    console.log("The weather is bad!");
+} */
+
+// || exercise
+
+/* let temp = 3;
+
+if(temp <= 0 || temp >= 30){
+    console.log("The weather is bad!")
+
+}else{
+    console.log("The weather is good!")
+} */
+
+
+//Exercise: using more operators
+
+/* let temp = 11;
+let sunny = false;
+
+if(temp > 0 && temp < 30 && sunny ){
+    console.log("The weather is good!");
+}else{
+    console.log("The weather is bad!");
+} */
