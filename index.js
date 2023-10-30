@@ -458,3 +458,8 @@ if(!sunny){
 }else{
     console.log("Its sunny outside!");
 } */
+
+//WHILE LOOP
+//while loop= Repeat some code
+/* while some condition is true
+it could potential repeat infinite amount of time */
