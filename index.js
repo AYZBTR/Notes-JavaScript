@@ -438,3 +438,23 @@ if(temp > 0 && temp < 30 && sunny ){
 }else{
     console.log("The weather is bad!");
 } */
+
+//NOT Logical Operator
+//Typically used to reverse condition's boolean valuse
+//True -> false         false -> true 
+
+/* let temp = 1;
+let sunny = true;
+if(!(temp > 0)){
+    console.log("It's cold outside!");
+
+}
+else{
+    console.log("It's warm outside!");
+}
+
+if(!sunny){
+    console.log("Its cloudy outside!");
+}else{
+    console.log("Its sunny outside!");
+} */
