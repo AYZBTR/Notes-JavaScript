@@ -309,7 +309,7 @@ else{
 } */
 
 //CHECKED PROPERTY exercise 2.
-document.getElementById("myButton").onclick = function(){
+/* document.getElementById("myButton").onclick = function(){
 
     const myCheckBox = document.getElementById("myCheckBox");
     const visaBtn = document.getElementById("visaBtn");
@@ -338,6 +338,36 @@ document.getElementById("myButton").onclick = function(){
     else{
         console.log("You must select an payment type!! ");
     }
+} */
+
+
+//SWITCH STATEMENT
+/* => statement that examines a value for
+a match against many case clauses.
+More efficient then using many "else if" statements */
+
+let grade = "E";
+
+switch(grade){
+    case "A":
+    console.log("You did great!");
+    break;
+
+    case "B":
+        console.log("You did good!");
+        break;
+
+    case "C":
+        console.log("You did okay!");
+        break;
+
+    case "D":
+        console.log("You passed...barley!");
+        break;
+
+    case "E":
+        console.log("You Failed!");
+        break;
+    default:
+        console.log(grade, "is not a letter grade! (Invalid Input)")
 }
-
-
