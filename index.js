@@ -346,7 +346,8 @@ else{
 a match against many case clauses.
 More efficient then using many "else if" statements */
 
-let grade = "E";
+//Exercise 1
+/* let grade = "E";
 
 switch(grade){
     case "A":
@@ -366,6 +367,34 @@ switch(grade){
         break;
 
     case "E":
+        console.log("You Failed!");
+        break;
+    default:
+        console.log(grade, "is not a letter grade! (Invalid Input)")
+} */
+
+//Exercise 2
+
+let grade = 80;
+
+switch(true){
+    case grade>=90:
+    console.log("You did great!");
+    break;
+
+    case grade >= 80:
+        console.log("You did good!");
+        break;
+
+    case grade >= 70:
+        console.log("You did okay!");
+        break;
+
+    case grade >= 60:
+        console.log("You passed...barley!");
+        break;
+
+    case grade > 60:
         console.log("You Failed!");
         break;
     default:
