@@ -464,8 +464,21 @@ if(!sunny){
 /* while some condition is true
 it could potential repeat infinite amount of time */
 
-let userName = "";
+/* let userName = "";
 while(userName == "" || userName == null){
     userName = window.prompt("Enter your name: ")
 }
-console.log("Hello", userName);
+console.log("Hello", userName); */
+
+//do while loop = do something,
+                // then you check the condition,
+                // repeat if condition is true.
+
+
+/* let userName;
+
+do{
+    userName = window.prompt("Enter your name");
+}while(userName == "")
+
+console.log("Hello", userName); */
