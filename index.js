@@ -463,3 +463,10 @@ if(!sunny){
 //while loop= Repeat some code
 /* while some condition is true
 it could potential repeat infinite amount of time */
+
+let userName = "";
+while(userName == "" || userName == null){
+    userName = window.prompt("Enter your name: ")
+}
+
+console.log("Hello", userName);
