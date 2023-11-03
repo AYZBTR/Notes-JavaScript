@@ -496,7 +496,7 @@ console.log("HAPPY NEW YEAR!") */
 //break = breaks out of a loop entirely
 //continue = skip an iteration of a loop
 
-for(i = 1; i<=20; i+=1){
+/* for(i = 1; i<=20; i+=1){
     if(i == 13){
         break;
     }
@@ -508,4 +508,24 @@ for(i = 1; i<=20; i+=1){
         continue;
     }
     console.log(i)
+} */
+
+//nested loop
+// => a loop inside of another loop
+
+/* for(let i = 1;i<=3; i+=1){
+    for(let j = 1;j<=3; j+=1){
+        console.log(j)
+    }
+} */
+
+let symbol = window.prompt("Enter a symbol to use:");
+let rows = window.prompt("Enter # of rows");
+let columns = window.prompt("Enter # of columns3");
+
+for(let i = 1;i<=rows; i+=1){
+    for(let j = 1;j<=columns; j+=1){
+        document.getElementById("myRectangle").innerHTML += symbol;
+    }
+    document.getElementById("myRectangle").innerHTML += "<br>";
 }
