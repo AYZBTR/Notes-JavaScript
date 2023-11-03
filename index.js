@@ -485,8 +485,27 @@ console.log("Hello", userName); */
 
 //For Loop = repeat some code a certain  amount of times:
 
-for(let i = 10; i > 0; i-=1){
+/* for(let i = 10; i > 0; i-=1){
     console.log(i);
 }
 
-console.log("HAPPY NEW YEAR!")
+console.log("HAPPY NEW YEAR!") */
+
+
+//BREAK and CONTINUE statements
+//break = breaks out of a loop entirely
+//continue = skip an iteration of a loop
+
+for(i = 1; i<=20; i+=1){
+    if(i == 13){
+        break;
+    }
+    console.log(i)
+}
+
+for(i = 1; i<=20; i+=1){
+    if(i == 13){
+        continue;
+    }
+    console.log(i)
+}
