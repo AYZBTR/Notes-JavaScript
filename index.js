@@ -519,7 +519,7 @@ for(i = 1; i<=20; i+=1){
     }
 } */
 
-let symbol = window.prompt("Enter a symbol to use:");
+/* let symbol = window.prompt("Enter a symbol to use:");
 let rows = window.prompt("Enter # of rows");
 let columns = window.prompt("Enter # of columns3");
 
@@ -528,4 +528,8 @@ for(let i = 1;i<=rows; i+=1){
         document.getElementById("myRectangle").innerHTML += symbol;
     }
     document.getElementById("myRectangle").innerHTML += "<br>";
-}
+} */
+
+//FUNCTION = Define code once, and use it many times.
+//           To perform some code, call the function name.
+
