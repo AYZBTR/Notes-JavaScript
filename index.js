@@ -532,12 +532,29 @@ for(let i = 1;i<=rows; i+=1){
 
 //FUNCTION = Define code once, and use it many times.
 //           To perform some code, call the function name.
-let userName = "Aayush";
+/* let userName = "Aayush";
 let age = 21;
 happyBirthday();
 happyBirthday();
 happyBirthday();
 function happyBirthday(){
+    console.log("Happy Birthday To you!");
+    console.log("Happy Birthday To you!");
+    console.log("Happy Birthday Dear", userName);
+    console.log("Happy Birthday To you!");
+    console.log("You are", age,"years old!");
+
+} */
+
+startProgram();
+
+function startProgram(){
+    let userName = "Aayush";
+    let age = 21;
+ happyBirthday(userName, age);
+
+}
+function happyBirthday(userName, age){
     console.log("Happy Birthday To you!");
     console.log("Happy Birthday To you!");
     console.log("Happy Birthday Dear", userName);
