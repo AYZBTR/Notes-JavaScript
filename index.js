@@ -566,7 +566,7 @@ function happyBirthday(userName, age){
 //Return statement = returns a value back to the place
 //                   where you invoke a function
 
-let area;
+/* let area;
 let width;
 let height;
 
@@ -578,4 +578,48 @@ console.log("The area is:", area);
 
 function getArea(width, height){
     return width*height;
-}
+} */
+
+//ternary operator = Shortcut for an 'if/else statement'
+//                   Takes 3 operands 
+//                   it is represented by '?'
+
+//                  1. a condition with ?
+//                  2. expression if True :
+//                  3. expression if False
+
+// condition ? exprIfTrue : exprIfFalse
+
+
+//Normal way...
+
+/* let adult = checkAge(21);
+console.log(adult);
+
+function checkAge(age){
+
+    if(age >=18){
+        return true;
+    }
+    else{
+        return false;
+    }
+
+} */
+
+//using ternary operator...
+
+/* let adult = checkAge(21);
+console.log(adult);
+
+function checkAge(age){
+
+    return age >= 18 ? true : false; //here in this line of code we used ternary operator syntax i.e-> condition ? exprIfTrue : exprIfFalse 
+
+} */
+
+//another example
+/* checkWinner(true);
+function checkWinner(win){
+    win ? console.log('YOU WIN!'): console.log('YOU LOOSE!');
+} */
