@@ -669,9 +669,9 @@ console.log("You have", items, "items in your cart");
 console.log("Your total is $", total); */
 
 //another way of writing codes using template literals...
-let userName = "Aayush";
+/* let userName = "Aayush";
 let items = 3;
-let total = 75;
+let total = 75; */
 
 /* console.log("Hello", userName);
 console.log("You have", items, "items in your cart");
@@ -681,10 +681,42 @@ console.log("Your total is $", total); */
 console.log(`You have 4{items} items in your cart.`);
 console.log(`Your total is $${total}`); */
 
-let text = 
+/* let text = 
 `Hello ${userName} <br>
 You have 4{items} items in your cart<br>
 Your total is $${total}<br>`;
 
 //console.log(text);
 document.getElementById("myLabel").innerHTML = text;
+ */
+
+
+
+
+
+// toLocaleString() = returns a string with a language
+//                    sensitive representation of this number
+
+// number.toLocaleString(locale, {options});
+
+//'locale' = specify that language (undefined = default set in browser)
+// 'options' = object with formatting options
+
+//let myNum = 100;
+
+//myNum = myNum.toLocaleString("en-US"); //US English
+//myNum = myNum.toLocaleString("hi-IN"); //Hindi
+//myNum = myNum.toLocaleString("de-DE"); //Standard German
+
+//format number as Currencies...
+//myNum = myNum.toLocaleString("en-US", {style: "currency", currency:"USD"});
+//myNum = myNum.toLocaleString("hi-IN", {style: "currency", currency:"INR"});
+//myNum = myNum.toLocaleString("de-DE", {style: "currency", currency:"EUR"});
+
+
+//format number as percent
+//myNum = myNum.toLocaleString(undefined, {style: "percent"});
+
+//format number as units
+//myNum = myNum.toLocaleString(undefined, {style:"unit", unit: "celsius"});
+//console.log(myNum);
