@@ -720,3 +720,6 @@ document.getElementById("myLabel").innerHTML = text;
 //format number as units
 //myNum = myNum.toLocaleString(undefined, {style:"unit", unit: "celsius"});
 //console.log(myNum);
+
+
+//Very basic number guessing game
