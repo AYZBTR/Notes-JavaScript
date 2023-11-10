@@ -652,3 +652,39 @@ console.log(i); */
 }
 
 console.log(i); */
+
+
+// Template literals = delimited with (`) i.e backtick
+//                     instead of double or single quotes
+//                     allows embedded variables and expression
+
+
+//One way or writing code...
+/* let userName = "Aayush";
+let items = 3;
+let total = 75;
+
+console.log("Hello", userName);
+console.log("You have", items, "items in your cart");
+console.log("Your total is $", total); */
+
+//another way of writing codes using template literals...
+let userName = "Aayush";
+let items = 3;
+let total = 75;
+
+/* console.log("Hello", userName);
+console.log("You have", items, "items in your cart");
+console.log("Your total is $", total); */
+
+/* console.log(`Hello ${userName}`);
+console.log(`You have 4{items} items in your cart.`);
+console.log(`Your total is $${total}`); */
+
+let text = 
+`Hello ${userName} <br>
+You have 4{items} items in your cart<br>
+Your total is $${total}<br>`;
+
+//console.log(text);
+document.getElementById("myLabel").innerHTML = text;
