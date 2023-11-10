@@ -623,3 +623,32 @@ function checkAge(age){
 function checkWinner(win){
     win ? console.log('YOU WIN!'): console.log('YOU LOOSE!');
 } */
+
+//Let and var keywords...
+
+//variable scope = where a variable is accessible
+
+//let = variables are limited to block scope{}
+//var = variables are limited to a function(){}
+
+//global variable = it is declared outside any function
+// (if global, var will CHANGE browser's window properties)
+
+
+//example...
+
+/* doSomething();
+function doSomething(){
+    for(var i = 1; i<=3; i+=1){
+        //console.log(i);
+    
+    }
+}
+console.log(i); */
+
+/* for(var i = 1; i<=3; i+=1){
+    console.log(i);
+
+}
+
+console.log(i); */
