@@ -776,17 +776,9 @@ function toFahrenheit (temp){
 } */
 
 /* <!-- BMI calculator --> */
-/* document.getElementById("submitBtn").onclick = function (){
-    let bmi;
-    document.getElementById("bmiLabel").innerHTML = bmi;
 
 
-}
-function BMI (bmi){
-    return (weight / height^2);
-} */
-
-document.getElementById("submitBtn").onclick = function () {
+/* document.getElementById("submitBtn").onclick = function () {
     // Retrieve values from textboxes
     let weight = parseFloat(document.getElementById("wTextbox").value);
     let height = parseFloat(document.getElementById("hTextbox").value);
@@ -806,4 +798,25 @@ document.getElementById("submitBtn").onclick = function () {
 function BMI(weight, height) {
     // Calculate BMI using the formula
     return weight / Math.pow(height / 100, 2); // Convert height to meters (dividing by 100)
-}
+} */
+
+
+//Array = think of it as a variable
+//        that can store multiple values
+
+let fruits = ["apple","orange","banana"];
+
+//fruits[0] = "coconut"
+fruits.push("lemon"); //Add an element
+fruits.pop(); // removes last element
+fruits.unshift("Mango"); //add element to beginning
+fruits.shift(); //removes element from beginning
+
+let length = fruits.length; //finds the length of array
+let index = fruits.indexOf("apple"); //finds the index of particular element
+
+
+
+console.log(fruits);
+console.log(length); //display the length of array
+console.log(index); //displays the index of particular element
