@@ -771,13 +771,39 @@ function toCelsius (temp){
     return (temp -32) * (5/9);
 
 }
-
 function toFahrenheit (temp){
     return temp * 9 / 5 +32;
 } */
 
 /* <!-- BMI calculator --> */
+/* document.getElementById("submitBtn").onclick = function (){
+    let bmi;
+    document.getElementById("bmiLabel").innerHTML = bmi;
 
-function BMI (){
+
+}
+function BMI (bmi){
     return (weight / height^2);
+} */
+
+document.getElementById("submitBtn").onclick = function () {
+    // Retrieve values from textboxes
+    let weight = parseFloat(document.getElementById("wTextbox").value);
+    let height = parseFloat(document.getElementById("hTextbox").value);
+
+    // Check if the input values are valid numbers
+    if (isNaN(weight) || isNaN(height)) {
+        document.getElementById("bmiLabel").innerHTML = "Invalid input. Please enter valid numbers.";
+    } else {
+        // Calculate BMI
+        let bmi = BMI(weight, height);
+
+        // Display the result
+        document.getElementById("bmiLabel").innerHTML = "BMI: " + bmi.toFixed(2); // Limit to two decimal places
+    }
+};
+
+function BMI(weight, height) {
+    // Calculate BMI using the formula
+    return weight / Math.pow(height / 100, 2); // Convert height to meters (dividing by 100)
 }
